@@ -2,7 +2,7 @@ const { request, gql } = require("graphql-request");
 
 const endpoint = "http://localhost:4000/graphql";
 
-describe("User queries", () => {
+describe("User query", () => {
   test("Querying a single user", async () => {
     const query = gql`
       query User($id: ID!) {
