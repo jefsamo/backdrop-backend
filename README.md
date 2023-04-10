@@ -1,6 +1,6 @@
 ## Backdrop-backend
 
-This is my solution to [backdrop](https://backdrop.photo/) backend engineering role.
+This is my solution to [backdrop](https://backdrop.photo/) backend-challenge engineering role.
 
 # Clone the repository
 
