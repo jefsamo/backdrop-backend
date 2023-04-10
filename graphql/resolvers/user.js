@@ -4,7 +4,7 @@ const levenshtein = require("fast-levenshtein");
 
 require("dotenv").config();
 
-// paystack account_name resolution api endpoint function
+// paystack account_name resolution API endpoint function
 const paystackRoute = async (accountNumber, bankCode) => {
   return await axios.get(
     `https://api.paystack.co/bank/resolve?account_number=${accountNumber}&bank_code=${bankCode}`,
