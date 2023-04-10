@@ -10,4 +10,4 @@ Edit .env.example file to suit your database
 
 Why pure Levenshtein Distance is a better approach to Damerau–Levenshtein Distance algorithm in this specific scenario
 
-Levenstein distance is better in this scenario to Damerau-levenshtein distance because since the task required LD < 2 which means  LD is effective in detecting simple typo, such as missing characters
+In this scenario, it is preferable to use Levenshtein distance instead of Damerau-Levenshtein distance because the task specifically requires a LD (Levenshtein distance) value of less than or equal to 2, indicating that LD is more suitable for detecting simple typographical errors, such as missing characters.
